@@ -8,9 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @Environment (\.managedObjectContext) var managedObjectContext
+    @State private var showingAddTodoView: Bool = false
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            List(0..<5){ item in
+                Text("Hello Anap")
+                
+            }
+            .navigationBarTitle("Todo", displayMode: .inline)
+            .navigationBarItems(trailing:
+                                    Button(action: {
+                                        self.showingAddTodoView.toggle()
+                                    }){
+                                        Image(systemName: "plus")
+                                    }
+                .sheet(isPresented: $showingAddTodoView){
+                    AddTodoView().environment(\.managedObjectContext, self.managedObjectContext)
+                })
+        
+            
+        }
     }
 }
 
