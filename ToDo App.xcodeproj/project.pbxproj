@@ -15,6 +15,7 @@
 		FAEAEC5425DA1DFD00618D6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEAEC5325DA1DFD00618D6A /* Preview Assets.xcassets */; };
 		FAEAEC5725DA1DFD00618D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEAEC5525DA1DFD00618D6A /* LaunchScreen.storyboard */; };
 		FAEAEC6225DA1F0100618D6A /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAEC6125DA1F0100618D6A /* AddTodoView.swift */; };
+		FAF508A925DE19C50021781A /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF508A825DE19C50021781A /* EmptyListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FAEAEC5625DA1DFD00618D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAEAEC5825DA1DFD00618D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAEAEC6125DA1F0100618D6A /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		FAF508A825DE19C50021781A /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				FAEAEC4B25DA1DFB00618D6A /* ContentView.swift */,
 				FAEAEC6125DA1F0100618D6A /* AddTodoView.swift */,
+				FAF508A825DE19C50021781A /* EmptyListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			files = (
 				FAEAEC4825DA1DFB00618D6A /* AppDelegate.swift in Sources */,
 				FAEAEC4A25DA1DFB00618D6A /* SceneDelegate.swift in Sources */,
+				FAF508A925DE19C50021781A /* EmptyListView.swift in Sources */,
 				FAEAEC4C25DA1DFB00618D6A /* ContentView.swift in Sources */,
 				FAEAEC4F25DA1DFC00618D6A /* ToDo_App.xcdatamodeld in Sources */,
 				FAEAEC6225DA1F0100618D6A /* AddTodoView.swift in Sources */,
